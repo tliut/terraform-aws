@@ -332,7 +332,7 @@ resource "aws_sns_topic" "tf-webapp-prod-autoscaling-alert-topic" {
 }
 
 resource "aws_sns_topic_subscription" "tf-webapp-prod-autoscaling-sns-subscription" {
-  endpoint = "+12142808669"
+  endpoint = "+1xxxyyyabcd"
   protocol = "sms"
   topic_arn = "${aws_sns_topic.tf-webapp-prod-autoscaling-alert-topic.arn}"
 }
