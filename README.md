@@ -31,7 +31,9 @@ Terraform IaC-1 allows you to creates a highly scalable and Highly Available (HA
 * [**Author & Copyright**](#author-copyright)
 * [**License**](#license)
 * [**Disclaimer**](#disclaimer)
+
 --
+
 [back to the top](#top)
 
 ***
@@ -95,7 +97,7 @@ All works contained herein copyrighted via below author unless work is explicitl
 ***
 
 ## Disclaimer
-* Code is provided "as-is". No liability is assumed by either the code's author nor this repo's owner for their use at AWS or any other facility. Additionally, running code to create and provision cloud infrastructure resources at AWS may incur monetary charges; in some cases, charges may be substantial. Charges are the sole responsibility of the account holder executing code obtained from this repository.*
+*Code is provided "as-is". No liability is assumed by either the code's author nor this repo's owner for their use at AWS or any other facility. Additionally, running code to create and provision cloud infrastructure resources at AWS may incur monetary charges; in some cases, charges may be substantial. Charges are the sole responsibility of the account holder executing code obtained from this repository.*
 
 Additional terms may be found in the complete [license agreement](./LICENSE.md)
 
