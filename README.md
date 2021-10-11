@@ -4,29 +4,21 @@
 ***
 
 ## Summary
-Terraform InfrastructureAsCode(IaC) Creates a the following AWS Cloud Infrastructure with a simple command:
+Terraform InfrastructureAsCode(IaC) Creates a highly scalable and HA AWS Cloud Infrastructure with a simple command:
 
-1. Level 1 - Base VPC Layer:
+1. Layer 1 - A Base VPC with the following components:
     * Custom VPC
-    * Pubic Subnets for Front-end Components
-    * Private Subnets for the Backend Components
-    * Route Tables (Public and Private)
+    * Subnets (Public/Internet-facing and Private/backend)
+    * Route Tables
     * Elastic IP for NAT Gateway
-    * NAT Gateway
-    * Internet Gateway for Outbound Internet Access
-2. Level 2 - VM Layer:
-    * Auto Scaling
-        * Data Source using Remote State from Base Layer
-        * Security Groups (Front-end and Back-end)
-        * IAM Roles, Role Policy and EC2 Instance Profile
-        * Load Balancers
-        * Launch Configuration
-        * Auto Scaling Group
-        * Auto Scaling Policy
-        * SNS
-            * SNS Topic
-            * SNS Subscription
-            * ASG Notification
+    * NAT and Internet Gateways
+2. Level 2 - Virtual Machine Layer with the following components:
+    * Data Source using Remote State from Base Layer
+    * Security Groups (Front-end and Back-end)
+    * IAM Roles, Role Policy and EC2 Instance Profile
+    * Load Balancers
+    * ASG - Launch Configuration, Auto Scaling Group & Scaling Policy
+    * SNS (Topic, Subscription, and Notification)
 
 
 **Version**: 0.1.0
