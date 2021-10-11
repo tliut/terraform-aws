@@ -6,7 +6,7 @@
 ## Summary
 Terraform InfrastructureAsCode(IaC) Creates a the following AWS Cloud Infrastructure with a simple command:
 
-1 Level 1 - Base VPC Layer:
+1. Level 1 - Base VPC Layer:
     * Custom VPC
     * Pubic Subnets for Front-end Components
     * Private Subnets for the Backend Components
@@ -14,7 +14,7 @@ Terraform InfrastructureAsCode(IaC) Creates a the following AWS Cloud Infrastruc
     * Elastic IP for NAT Gateway
     * NAT Gateway
     * Internet Gateway for Outbound Internet Access
-1 Level 2 - VM Layer:
+2. Level 2 - VM Layer:
     * Auto Scaling
         * Data Source using Remote State from Base Layer
         * Security Groups (Front-end and Back-end)
