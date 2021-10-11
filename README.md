@@ -4,7 +4,28 @@
 ***
 
 ## Summary
-Terraform InfrastructureAsCode(IaC) Creates a custom VPC with public/private subnets, IGW, NAT GW, ASG and SNS Notification
+Terraform InfrastructureAsCode(IaC) Creates a the following AWS Cloud Infrastructure with a simple command:
+1 Level 1 - Base VPC Layer:
+    * Custom VPC
+    * Pubic Subnets for Front-end Components
+    * Private Subnets for the Backend Components
+    * Route Tables (Public and Private)
+    * Elastic IP for NAT Gateway
+    * NAT Gateway
+    * Internet Gateway for Outbound Internet Access
+1 Level 2 - VM Layer:
+    * Auto Scaling
+        * Data Source using Remote State from Base Layer
+        * Security Groups (Front-end and Back-end)
+        * IAM Roles, Role Policy and EC2 Instance Profile
+        * Load Balancers
+        * Launch Configuration
+        * Auto Scaling Group
+        * Auto Scaling Policy
+        * SNS
+            * SNS Topic
+            * SNS Subscription
+            * ASG Notification
 
 
 **Version**: 0.1.0
