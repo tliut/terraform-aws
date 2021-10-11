@@ -5,24 +5,26 @@
 
 ## Summary
 Terraform InfrastructureAsCode(IaC) Creates a custom VPC with public/private subnets, IGW, NAT GW, ASG and SNS Notification
+
+
 **Version**: 0.1.0
 ***
 
 ## Contents
-*[**Dependencies**](#dependencies)
-*[**Installation**](#installation)
-*[**Screenshots**](#screenshots)
-*[**Author & Copyright**](#author-copyright)
-*[**License**](#license)
-*[**Disclaimer**](#disclaimer)
+* [**Dependencies**](#dependencies)
+* [**Installation**](#installation)
+* [**Screenshots**](#screenshots)
+* [**Author & Copyright**](#author-copyright)
+* [**License**](#license)
+* [**Disclaimer**](#disclaimer)
 --
 [back to the top](#top)
 
 ***
 ## Dependencies
 [Terraform IaC-1 - AWS Custom VPC](https://github.com/tliut/terraform-aws) requires the following:
-*[Terraform](https://www.terraform.io/downloads.html)
-*[AWS CLI version 2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
+* [Terraform](https://www.terraform.io/downloads.html)
+* [AWS CLI version 2](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 
 [back to the top](#top)
 
