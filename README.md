@@ -45,7 +45,7 @@ Terraform InfrastructureAsCode(IaC) Creates a custom VPC with public/private sub
 ```
 
 <p align="center">
-    <a href="#"><img src="./assets/terraform-iac-base-vpc.jpg" width="800">
+    <a href="#"><img src="./assets/terraform-iac-base-vpc.JPG" width="800">
 </p>
 
 [back to the top](#top)
@@ -59,7 +59,7 @@ Terraform InfrastructureAsCode(IaC) Creates a custom VPC with public/private sub
 ```
 
 <p align="center">
-    <a href="#"><img src="./assets/terraform-vm-layer.jpg" width="800">
+    <a href="#"><img src="./assets/terraform-vm-layer.JPG" width="800">
 </p>
 
 [back to the top](#top)
