@@ -4,7 +4,7 @@
 ***
 
 ## Summary
-Terraform InfrastructureAsCode(IaC) Creates a highly scalable and HA AWS Cloud Infrastructure with a simple command:
+Terraform IaC-1 allows you to creates a highly scalable and Highly Available (HA) AWS Cloud Infrastructure with a simple command. The following cloud resources can be provisioned:
 
 1. Layer 1 - A Base VPC with the following components:
     * Custom VPC
@@ -12,7 +12,7 @@ Terraform InfrastructureAsCode(IaC) Creates a highly scalable and HA AWS Cloud I
     * Route Tables
     * Elastic IP for NAT Gateway
     * NAT and Internet Gateways
-2. Level 2 - Virtual Machine Layer with the following components:
+2. Layer 2 - Virtual Machine Layer with the following components:
     * Data Source using Remote State from Base Layer
     * Security Groups (Front-end and Back-end)
     * IAM Roles, Role Policy and EC2 Instance Profile
